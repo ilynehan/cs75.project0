@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
 <menu>
-    <category name="pizzas">
+    <category name="Pizzas">
         <item name="Tomato &amp; Cheese">
             <price small="5.50" large="9.75">
             </price>
@@ -18,16 +18,18 @@
             <price small="1.25" large="1.85">
             </price>
         </extra>
-        <specialty small="9.80" large="15.80">
+    </category>
+    <category name="Specialty Pizzas">
+        <price small="9.80" large="15.80">
             <item name="Three Aces Special">
             </item>
             <item name="Mediterranean" ingredients="Sliced Tomatoes, Olives, Spinach, Fresh Garlic, Mozzarella &amp; Feta Cheese">
             </item>
             <item name="Vegetable" ingredients="Sliced Tomatoes, Onion, Peppers, Mushrooms, Brococoli, Mozzarella">
             </item>
-        </specialty>
+        </price>
     </category>
-    <category name="specialdinners">
+    <category name="Special Dinners">
         <item name="Chicken Wing Dinner">
             <price nosize="7.25">
             </price>
@@ -42,7 +44,7 @@
         </item>
         <notes>All Dinners served with French Fries and Salad*</notes>
     </category>
-    <category name="sideorders">
+    <category name="Side Orders">
         <item name="Onion Rings">
             <price small="2.25" large="2.95">
             </price>
@@ -56,7 +58,7 @@
             </price>
         </item>
     </category>
-    <category ="salads">
+    <category name="Salads">
         <item name="Garden">
             <price small="3.50" large="4.50">
             </price>
@@ -66,11 +68,53 @@
             </price>
         </item>
     </category>
-    <category name="Pasta>
-
-        
-    
-
-
-
+    <category name="Spaghetti or Ziti">
+        <item name="Spaghetti"></item>
+        <item name="Ziti"></item>
+        <topping name="Sauce">
+            <price nosize="5.40"></price>
+        </topping>
+        <topping name="Sausage">
+            <price nosize="6.45"></price>
+        </topping>
+        <topping name="Meat Ball">
+            <price nosize="6.45"></price>
+        </topping>
+        <topping name="A La Three Aces" ingredients="Sausage, Mushrooms, Bacon & Ham Topped with Sauce & Mozzarella Cheese">
+            <price nosize="7.25"></price>
+        </topping>
+    </category>
+    <category name="Home made Lasagna Raioli or Manicotti">
+        <item name="Lasagna Ravioli"></item>
+        <item name="Manicotti"></item>
+        <topping name="Sauce">
+            <price nosize="6.25"></price>
+        </topping>
+        <topping name="Veal">
+            <price nosize="7.25"></price>
+        </topping>
+        <note>All Pasta Dinners Served with Garlic Bread and Salad</note>
+    </category>
+    <category name="Homemade Calzones">
+        <price large="7.35">
+            <item name="Vegetarian"></item>
+            <item name="Sausage"></item>
+        </price>
+    </category>
+    <category name="Wraps">
+        <price nosize="4.95"></price>
+        <item name="Turkey Club Wrap">Turkey, Cheese, Lettuce, Tomato, Onion, Mayo</item>
+        <item name="Chicken Cobb">Grilled Chicken, Bacon, CHeese, Lettuce, Tomato, Onion, Honey Mustard</item>
+    </category>
+    <category name="Grinders">
+        <item name="Meateless">
+            <price small="4.50" large="4.95"></price>
+        </item>
+        <item name="Hamburger">
+            <price small="4.50" large="4.95"></price>
+        </item>
+        <item name="Italian">
+            <price small="4.75" large="5.75"></price>
+        </item>
+    </category>
 </menu>
