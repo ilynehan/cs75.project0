@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteBase /~ilynehan/project0/html
+RewriteRule ^contact$ index.php?page=contact [L]
+RewriteRule ^lecture/(.*) index.php?page=lecture&n=$1 [L]
