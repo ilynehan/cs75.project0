@@ -38,7 +38,7 @@
             <price nosize="7.25">
             </price>
         </item>
-        <item name="Chicken Kabob Plate With" ingredients="rice, salad &amp; pita bread">
+        <item name="Chicken Kabob Plate With" ingredients="Rice, Salad &amp; Pita Bread">
             <price nosize="7.85">
             </price>
         </item>
@@ -80,11 +80,11 @@
         <topping name="Meat Ball">
             <price nosize="6.45"></price>
         </topping>
-        <topping name="A La Three Aces" ingredients="Sausage, Mushrooms, Bacon & Ham Topped with Sauce & Mozzarella Cheese">
+        <topping name="A La Three Aces" ingredients="Sausage, Mushrooms, Bacon &amp; Ham Topped with Sauce &amp; Mozzarella Cheese">
             <price nosize="7.25"></price>
         </topping>
     </category>
-    <category name="Home made Lasagna Raioli or Manicotti">
+    <category name="Homemade Lasagna Raioli or Manicotti">
         <item name="Lasagna Ravioli"></item>
         <item name="Manicotti"></item>
         <topping name="Sauce">

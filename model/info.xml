@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<info>
+    <name>Three Aces</name>
+    <address title="testing">
+        <street>1613 Massachusettes Ave</street>
+        <city>Cambridge</city>
+        <state>MA</state>
+        <zipcode>02139</zipcode>
+        <note>Between Mellen &amp; Everett St</note>
+    </address>
+    <contact>
+        <telephone>617 491-2884</telephone>
+        <fax>617 491-2889</fax>
+    </contact>
+</info>
